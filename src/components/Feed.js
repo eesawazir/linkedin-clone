@@ -30,7 +30,7 @@ const Feed = () => {
         db.collection('posts')
             .add({
                 name: 'Eesa Wazir',
-                description: 'This is a test description',
+                description: 'Software Developer',
                 message: postInput,
                 photoUrl: '',
                 timestamp: firebase.firestore.FieldValue.serverTimestamp(),
